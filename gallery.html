@@ -8,29 +8,33 @@
     <link rel="shortcut icon" href="media/img/cross.png" type="image/x-icon">
     <title>Seongheon Hong</title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
-
 <body>
-    <div class="container">
-    <br>
-        <hr style="border-top: 2px solid; opacity: 0.7;"> 
+    <div class="container" id="headbar">
+        <hr style="border-top: 2px solid; opacity: 0.7;">
         <div class="row" style="text-align: center;">
-        <div class="col-sm-3"><a href="index.html" style="color: black;">Home</a></div>
-        <div class="col-sm-3"><a href="projects.html" style="color: black;">Projects</a></div>
-        <div class="col-sm-3"><a href="life.html" style="color: black;">Life</a></div>
-        <div class="col-sm-3"><b>Gallery</b></div>
+            <div class="col-sm-3"><a id="bar_home" href="index.html" style="color: black;">Home</a></div>
+            <div class="col-sm-3"><a id="bar_prj" href="projects.html" style="color: black;">Projects</a></div>
+            <div class="col-sm-3"><a id="bar_life" href="life.html" style="color: black;">Life</a></div>
+            <div class="col-sm-3"><a id="bar_gallery" href="gallery.html" style="color: black;">Gallery</a></div>
         </div>
         <hr style="border-top: 2px solid; opacity: 0.7;">
     </div>
-    
-       
-        <footer>
-            <p>Last update: October 13, 2021</p>
-        </footer>
-    </div> <!-- /container -->
+</body>
+<!--------------------------------------------------------------------------------------------------------------->
+<style>
+    #bar_gallery {
+        font-weight: bold;
+        text-decoration-line:none;
+    }
+</style>
 
+<body>
 
+    <footer>
+        <p>Last update: October 13, 2021</p>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
