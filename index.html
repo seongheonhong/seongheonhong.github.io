@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPVT9V7825"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-XPVT9V7825');
-    </script>
-    -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.png"> -->
-
+    <link rel="shortcut icon" href="media/img/cross.png" type="image/x-icon">
     <title>Seongheon Hong</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="main.css" rel="stylesheet">
-
+    <link href="css/main.css" rel="stylesheet">    	    
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>    
+    <script src="js/popper.min.js" ></script>
 </head>
+
+<body>    
+    <div class="container" id="headbar">
+        <hr style="border-top: 2px solid; opacity: 0.7;">
+        <div class="row" style="text-align: center;">
+            <div class="col-sm-3"><a id="bar_home" href="index.html" style="color: black;">Home</a></div>
+            <div class="col-sm-3">
+                <div class="nav-item dropdown">
+                    <a id="bar_prj" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Research</a>
+                      <a class="dropdown-item" href="#">Contests</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Personal</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3"><a id="bar_life" href="life.html" style="color: black;">Life</a></div>
+            <div class="col-sm-3"><a id="bar_gallery" href="gallery.html" style="color: black;">Gallery</a></div>
+        </div>
+        <hr style="border-top: 2px solid; opacity: 0.7;">
+    </div>
+</body>
+<!--------------------------------------------------------------------------------------------------------------->
+<style>
+    #bar_home {
+        font-weight: bold;
+        text-decoration-line:none;
+    }
+</style>
 
 <body>
     <div class="container">
-        <br>
-
         <div class="row" style="padding: 15px 15px 0px 15px;">
             <div class="col-sm-9">
                 <h2>Seongheon Hong</h2>
                 <br>Undergraduate Student<br>
                 <a href="https://me.snu.ac.kr" target="_blank">Mechanical Engineering</a> and
                 <a href="https://ship.snu.ac.kr" target="_blank">Naval Architecture & Ocean Engineering</a>
-                in <a href="https://snu.ac.kr" target="_blank">Seoul National University</a><br>
-                <!--
-			Research Assistant at <a href="https://www.meche.engineering.cmu.edu/faculty/halilaj-muskuloskeletal-biomechanics-lab.html/" target="_blank">Musculoskeletal Biomechanics Lab</a><br>
-			Advisor: <a href="https://www.meche.engineering.cmu.edu/directory/bios/halilaj-eni.html/" target="_blank">Prof. Eni Halilaj</a>
-            
-      <br>
-			<br>
-      M.S. in <a href="https://meche.engineering.cmu.edu/" target="_blank">Mechanical Engineering</a> in <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a><br>
-			* College of Engineering Fellowship awardee (<em>ATK-Nick G. Vlahakis</em>)
-			<br>
-			<br>
-			B.S. in <a href="https://me.snu.ac.kr/en" target="_blank">Mechanical Engineering</a> in <a href="http://en.snu.ac.kr/" target="_blank">Seoul National University</a><br>
-			<br>
-            -->
+                in <a href="https://snu.ac.kr" target="_blank">Seoul National University</a><br>                
                 <a href="https://github.com/seongheonhong/" target="_blank">GitHub</a><br>
                 <a href="files/CV_SHong.pdf" target="_blank">Curriculum Vitae(PDF)</a><br>
                 Email : wbfprp@snu.ac.kr<br>
                 <br>
-                Research Interests : <i>Wearable Sensor, Biomechanics, Rehabilitation Robotics, Robot Locomotion</i>
+                <!--Research Interests : <i>Wearable Sensor, Biomechanics, Rehabilitation Robotics, Robot Locomotion</i>-->
                 <br> <br>
-                Welcome to my homepage. I am Seongheon Hong, undergraduate student at Seoul National University.
+                Hello. I am Seongheon Hong, undergraduate student at Seoul National University. (OO에서부터) <br />
+                I served as a <em>Goverment Issued Fire Fighter(GIFF)</em> from 2019 March to 2020 December. (Mandatory
+                Mil. Serv. 대신에)
                 If you have any questions or interested in my research, feel free to <a
                     href="mailto:wbfprp@snu.ac.kr">email</a> me!
             </div>
@@ -69,220 +69,32 @@
                 <img class="profile" src="media/img/profile_hsize.png" />
             </div>
         </div>
-
-        <hr>
-
-        <h3>Research Experience</h3>
-        <h4>@ <a href="https://fab.snu.ac.kr" target="_blank">IDIM Lab.</a> in
-            SNU</h4>
-        <br>
-
-        <!-- Project 1. Kirigami inspired wearable strain sensor -->
-        <div class="row">
-            <div class="col-sm-3"><img class="img-fluid" src="media/img/kirigami_1.webp"
-                    style="object-fit: scale-down;" /></div>
-            <div class="col-sm-9">
-                <b>Wearable piezoelectric strain sensor</b><br />
-                <details>
-                    <summary>details</summary>
-                    <small>
-                        <b>Piezoelectric strain sensor with high sensitivity and high stretchability based on kirigami
-                            design cutting</b><br/>
-                        Young-Gyun Kim, Ji-Hyeon Song, <b>Seongheon Hong</b>, Sung-Hoon Ahn<br />
-                        <em>npj Flexible Electronics</em>, 2022. (
-                        <a href="https://www.nature.com/articles/s41528-022-00186-4" target="_blank">paper</a> /
-                        <a href="media/files/kirigami_app.pdf" target="_blank">application glove schematic & PCB
-                            design</a> /
-                        <a href="https://github.com/seongheonhong/SNU_kirigami" target="_blank">code</a> )<br />
-                        Unfortunately, source code for emebedded controller(nrf52810) was lost.
-                        It will be uploaded as soon as found in some directory... <br />
-                        Some additional information not inclued in manuscript(mainly about application glove): <br />
-                        Embedded: <em>nRF5 SDK, softdevice s132, SEGGER Embedded Studio.</em> <br />
-                        PC: <em>Max 8</em>
-                    </small><br />
-                </details>
-                <video width="360"
-                    src="https://static-content.springer.com/esm/art%3A10.1038%2Fs41528-022-00186-4/MediaObjects/41528_2022_186_MOESM2_ESM.mp4"
-                    autoplay controls></video>
-                <hr>
-            </div>
-        </div>
-
-        <!-- Project 2. Rehab. Glove -->
-        <div class="row">
-            <div class="col-sm-3"><img class="thumbnail" src="imgs/thumb/PanopticDataset.png" /></div>
-            <div class="col-sm-9">
-                Provisional title: <b><em>Implementation of Equivalent Multi-Extensor HITL-DPS system for Design of
-                        Customized Passive Extensor </b><br />
-                Eni Halilaj, <b>Soyong Shin</b>, Eric Rapp, Donglai Xiang <br />
-                <em>Journal of Biomechanics</em>, 2021.</br>
-                <a href="https://www.sciencedirect.com/science/article/abs/pii/S002192902100419X"
-                    target="_blank">paper</a> / <a href="https://github.com/CMU-MBL/CMU_PanopticDataset_2.0"
-                    target="_blank">code</a> / Video (below)
-                <br>
-                <video width="360" src="imgs/thumb/PanopticDataset.mp4" autoplay controls></video>
-            </div>
-        </div>
-
-        <!-- Project 3. Multiview HMR -->
-        <div class="row">
-            <div class="col-sm-3"><img class="thumbnail" src="imgs/thumb/MuHMR.png" /></div>
-            <div class="col-sm-9">
-                <b><em>Multi-view Human Pose and Shape Estimation Using Learnable Volumetric Aggregation</b></a><br />
-                <b>Soyong Shin</b>, Eni Halilaj <br />
-                <em>arXiv</em>, 2020.</br>
-                <a href="https://arxiv.org/abs/2011.13427" target="_blank">paper</a> / demo video (below)
-                <br>
-                <video width="360" src="imgs/thumb/MuHMR.mp4" autoplay controls></video>
-            </div>
-        </div>
-
-        <!-- Project 2. IMU Joint Angle Estimation -->
-        <div class="row">
-            <div class="col-sm-3"><img class="thumbnail" src="imgs/thumb/JoB.png" /></div>
-            <div class="col-sm-9">
-                <b>Estimation of Kinematics from Inertial Measurement Units Using a Combined Deep Learning and
-                    Optimization Framework</b></a><br />
-                Eric Rapp*, <b>Soyong Shin</b>*, Wolf Thomsen, Reed Ferber, and Eni Halilaj ( * equal
-                contribution)<br />
-                <em>Journal of Biomechanics</em>, Vol 116, 110229, 2021</br>
-                <a href="files/JOB_2021.pdf" target="_blank">paper</a> / <a
-                    href="https://github.com/CMU-MBL/JointAnglePrediction_JOB" target="_blank">code</a> / <a
-                    href="files/ASB_2020_Shin_ET_AL.pdf" target="_blank">abstract (ASB 2020)</a> / <a
-                    href="https://simtk.org/projects/imudeeplearning/" target="_blank">project page</a>
-            </div>
-        </div>
-
-        <!-- Project 1. Panoptic Dataset -->
-        <div class="row">
-            <div class="col-sm-3"><img class="thumbnail" src="imgs/thumb/panoptic.png" /></div>
-            <div class="col-sm-9">
-                <b>A Multimodal Dataset for Modeling Human Pose Priors</b></a><br />
-                Eni Halilaj, <b>Soyong Shin</b>, Eric Rapp, Xiang Donglai, and Yaadhav Raj<br />
-                <em>American Society of Biomechanics</em>, 2020</br>
-                <a href="files/ASB_2020_Halilaj_ET_AL.pdf" target="_blank">abstract</a> / <a
-                    href="https://simtk.org/projects/cmupanopticdata" target="_blank">project page</a>
-            </div>
-        </div> <br>
-
-        <h4>@ <a href="https://www.lomin.ai//" target="_blank">Lomin</a></h4>
-        <br>
-        <div class="row">
-            <div class="col-sm-3"><img class="thumbnail" src="imgs/thumb/lomin.png" /></div>
-            <div class="col-sm-9">
-                <b>Optical Character Recognition in Korea</b></a><br />
-                J. Kang, B. Lim, S. Kang, S. Lee, and <b>Soyong Shin</b><br />
-                <em>2019 Korean AI Grand Challenge</em>, 2019. 1st Prize</br>
-                <a href="https://youtu.be/rRa0f34ssNM" target="_blank">YouTube</a>
-            </div>
-        </div> <br>
-
-
-        <h4>@ <a href="https://snutt.snu.ac.kr//" target="_blank">Seoul National University Towing Tank</a></h4>
-        <br>
-        <div class="row">
-            <div class="col-sm-3"><img class="thumbnail" src="imgs/thumb/energies.png" /></div>
-            <div class="col-sm-9">
-                <b>Computational Analysis of the Performance of a Vertical Axis Turbine in a Water Pipe</b></a><br />
-                H. Yeo, W. Seok, <b>Soyong Shin</b>, Y.C. Huh, B.C. Jung, C-S. Myeong, and S.H. Rhee<br />
-                <em>Energies</em>, 2019.</br>
-                <a href="https://www.mdpi.com/1996-1073/12/20/3998/htm" target="_blank">paper</a>
-            </div>
-        </div>
-
-        <hr>
+        <hr style="border-top: 2px solid; opacity: 0.7;">
 
         <h3>Honors and Awards</h3>
-        <br>
-        <div class="row">
-            <!-- <div class="col-sm-3">img</div> -->
-            <div class="col-sm-12">
-                <b>Nick-G. Vlahakis Fellowship</b><br />
-                Awarded by <a href="https://engineering.cmu.edu/" target="_blank">Carnegie Mellon College of
-                    Engineering</a><br />
-                Selected 1 of 2 among CMU College of Engineering MS students (Jan. 2021)
-            </div>
-        </div>
-        <div class="row">
-            <!-- <div class="col-sm-3">img</div> -->
-
-            <div class="col-sm-12">
-                <b>The Korean Government Scholarship for Study Overseas</b><br />
-                Funded by <a href="http://www.niied.go.kr/" target="_blank">Korean National Institute for International
-                    Education</a><br />
-                Supporting outstanding graduate students studying oversea (Adimitted in Aug. 2020, Funding from Aug.
-                2021 to Aug. 2023)
-            </div>
-        </div>
-        <div class="row">
-            <!-- <div class="col-sm-3">img</div> -->
-
-            <div class="col-sm-12">
-                <b>Minister Prize</b><br />
-                Awarded by <a href="http://english.msip.go.kr/" target="_blank">Korean Ministry of Science and
-                    ICT</a><br />
-                1st prize at 2019 Korean AI Grand Challenge (Task: Optical Character Recognition)
-            </div>
-        </div>
-        <div class="row">
-            <!-- <div class="col-sm-3">img</div> -->
-
-            <div class="col-sm-12">
-                <b>Best Presenting Paper Award</b><br />
-                Awarded by President of Korean Society of Computational Fluids Engineering (Oct. 2018)<br />
-                1 of 5 selected at 2018 Annual Meeting of Korean Society of Computational Fluids Engineering
-            </div>
-        </div>
-        <div class="row">
-            <!-- <div class="col-sm-3">img</div> -->
-
-            <div class="col-sm-12">
-                <b>Excellence Award</b><br />
-                Awarded by Dean of Engineering College, Seoul National University (Dec. 2017)<br />
-                3rd prize in X-Corps Competition
-            </div>
-        </div>
-        <div class="row">
-
-            <div class="col-sm-12">
-                <b>Special Award</b><br />
-                Awarded by President of Korean Society of Computational Fluids Engineering (Nov. 2017)<br />
-                3rd prize at EDISON competition
-            </div>
-        </div>
-        <div class="row">
-
+        <div class="row" style="padding: 5px 15px 0px 15px;">
             <div class="col-sm-12">
                 <b>The National Scholarship for Science and Engineering</b><br />
-                Funded by <a href="https://www.kosaf.go.kr/eng/" target="_blank">Korean Student Aid Foundation</a> (Jul.
-                2016)<br />
+                Funded by <a href="https://www.kosaf.go.kr/eng/" target="_blank">Korean Student Aid Foundation</a>                
             </div>
         </div>
-
-        <hr>
-
+        <div class="row" style="padding: 5px 15px 0px 15px;">
+            <div class="col-sm-12">
+                <b>Academic Excellent Scholarship</b><br />
+                Funded by Seoul National University<br />
+            </div>
+        </div>
+        <hr style="border-top: 2px solid; opacity: 0.7;">
 
         <h3>Patents and Copyrights</h3>
-        <br>
-        <div class="row">
-            <!-- <div class="col-sm-3">img</div> -->
+        <div class="row" style="padding: 15px 15px 0px 15px;">
             <div class="col-sm-12">
-                <b>Korean Copyright Comission: SNUFOAM-Vertical Axis Turbine</b><br />
-                W. Seok, <b>Soyong Shin</b>, H. Yeo, and S.H. Rhee<br />
-                Registered at <a href="https://www.copyright.or.kr/main.do" target="_blank">Korean Copyright</a> (Apr.
-                2019)
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <b>Korean Domestic Patent: Controllable Pitch Propeller Using Shape Memory Alloy</b><br />
-                S.H. Ahn, Y. Park, S. Song, <b>Soyong Shin</b>, and M. Choi<br />
-                Registered at <a href="http://www.kipris.or.kr/khome/main.jsp" target="_blank">Korean Intellectual
-                    Property Office</a> (Dec. 2017)
+                <b>Strain sensor using piezo film with incision shape</b><br />
+                Y.G. Kim, S.H. Ahn, <b>Seongheon Hong</b>, KR-Application No. 10-2022-0065292, (<b>Pending</b>)
             </div>
         </div>
 
-        <hr>
+        <hr style="border-top: 2px solid; opacity: 0.7;">
 
         <footer>
             <p>Last update: October 13, 2021</p>
@@ -293,12 +105,7 @@
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <a href="https://clustrmaps.com/site/19vmv" title="Visit tracker"><img
-            src="//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=96_cPsU0hobTwkvz5TE65OElBK1GlwPvk51w9wGRAAQ" width="0"
-            height="0" /></a>
+    <!-- Placed at the end of the document so the pages load faster -->        
 </body>
 
 </html>

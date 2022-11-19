@@ -112,7 +112,7 @@ hr {
   color: inherit;
   border: 0;
   border-top: 1px solid;
-  opacity: 0.25;
+  opacity: 0.35;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -160,10 +160,14 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
 }
 
 h6, .h6 {
   font-size: 1rem;
+  margin-bottom: 0.1rem;
+  font-weight: 400;
 }
 
 p {
