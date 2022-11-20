@@ -11,16 +11,7 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container" id="headbar">
-        <hr style="border-top: 2px solid; opacity: 0.7;">
-        <div class="row" style="text-align: center;">
-            <div class="col-sm-3"><a id="bar_home" href="index.html" style="color: black;">Home</a></div>
-            <div class="col-sm-3"><a id="bar_prj" href="projects.html" style="color: black;">Projects</a></div>
-            <div class="col-sm-3"><a id="bar_life" href="life.html" style="color: black;">Life</a></div>
-            <div class="col-sm-3"><a id="bar_gallery" href="gallery.html" style="color: black;">Gallery</a></div>
-        </div>
-        <hr style="border-top: 2px solid; opacity: 0.7;">
-    </div>
+    <div id="headers"></div>
 </body>
 <!--------------------------------------------------------------------------------------------------------------->
 <style>
@@ -44,7 +35,7 @@
                 <h5><b>Wearable Piezoelectric Strain Sensor / E-harvestor</b></h5>
                 <video width="360"
                     src="https://static-content.springer.com/esm/art%3A10.1038%2Fs41528-022-00186-4/MediaObjects/41528_2022_186_MOESM2_ESM.mp4"
-                    autoplay controls></video>
+                    controls></video>
                 <details>
                     <summary>Details</summary><small>
                         <hr>
@@ -67,23 +58,22 @@
                         <h6><b>Improved performance of stretchable piezoelectric energy harvester based on stress
                                 rearrangement</b></h6>
                         Young-Gyun Kim*, <b>Seongheon Hong*</b>, Bosun Hwang, Sung-Hoon Ahn, Ji-Hyeon Song<br />
-                        <em>Scientific Reports</em>, (<b>under review</b>)<br />
+                        <em>Scientific Reports</em>, (* indicates co-first authors. <b>Accepted</b>)<br />
                     </small>
                 </details>
-
-            </div>
+            </div>            
         </div>
-
+        <br>
         <!-- Project 2. Rehab. Glove -->
         <div class="row">
             <h4>@ <a href="https://biorobotics.snu.ac.kr" target="_blank">Biorobotics Lab.</a> in
                 SNU</h4>
             <hr>
-            <div class="col-sm-3"><br /><img class="thumbnail" src="imgs/thumb/PanopticDataset.png" /></div>
+            <div class="col-sm-3"><br /><img class="img-fluid" src="media/img/hitl_dps.png" /></div>
             <div class="col-sm-9">
 
-                <h5><b>Rehabilitation Glove for Stroke Patients</b></h5>
-                <video width="360" src="imgs/thumb/PanopticDataset.mp4" autoplay controls></video>
+                <h5><b>Rehabilitation Glove : Human In The Loop - Design Parameter Set System</b></h5>
+                <video width="360" src="media/vid/Finger_Vid.mp4" controls></video>
                 <details>
                     <summary>Details</summary><small>
                         <h6><b>Implementation of Equivalent Multi-Extensor HITL-DPS system for Design of
@@ -108,7 +98,7 @@
                 <b>AI Service Robot Competition</b><br />
                 <video width="360"
                     src="https://static-content.springer.com/esm/art%3A10.1038%2Fs41528-022-00186-4/MediaObjects/41528_2022_186_MOESM2_ESM.mp4"
-                    autoplay controls></video>
+                    controls></video>
                 <details>
                     <summary>details</summary>
                     <small>
@@ -130,7 +120,7 @@
                         <b>Improved Performance of Stretchable Piezoelectric Energy Harvester Based on Stress
                             Rearrangement</b><br />
                         Young-Gyun Kim*, <b>Seongheon Hong*</b>, Bosun Hwang, Sung-Hoon Ahn, Ji-Hyeon Song<br />
-                        <em>Scientific Reports</em>, (<b>under review</b>)
+                        <em>Scientific Reports</em>, (<b>Accepted</b>)
                     </small><br />
                 </details>
                 <hr style="border-top: 2px solid; opacity: 0.7;">
@@ -153,11 +143,14 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <a href="https://clustrmaps.com/site/19vmv" title="Visit tracker"><img
-            src="//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=96_cPsU0hobTwkvz5TE65OElBK1GlwPvk51w9wGRAAQ" width="0"
-            height="0" /></a>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>    
+    <script src="js/popper.min.js" ></script>    
+    <script type="text/javascript">   
+        $(document).ready( function() {
+        $("#headers").load("common/header.html");
+        });
+    </script>
 </body>
 
 </html>
