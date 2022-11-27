@@ -58,6 +58,10 @@
     justify-content: center;
     margin:auto;
   }
+  a:any-link {
+    text-decoration-line: none;    
+    /* color:#2574D3; */
+  }
   
   /* @import url(https://fonts.googleapis.com/css?family=Raleway);
   body{background: #f9f9f9;font-size: 16px;font-family: 'Raleway', sans-serif}
